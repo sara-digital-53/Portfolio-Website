@@ -5,7 +5,13 @@ import { projectsData } from "../projectsData";
 import SiteHeader from "@/components/site-header"
 import FooterCta from "@/components/footer-cta"
 
-export default function ProjectPage({ params }) {
+interface ProjectPageProps {
+  params: {
+    slug: string
+  }
+}
+
+export default function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = params;
   const project = projectsData.find((p) => p.slug === slug);
 
