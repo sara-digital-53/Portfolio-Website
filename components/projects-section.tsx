@@ -29,7 +29,7 @@ export default function ProjectsSection() {
           >
             <div className="aspect-[1/1] overflow-hidden">
               <Image
-                src="/images/design-mode/sara-trophies-project-main-image_xzibf6(1).png"
+                src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/sara-trophies-project-main-image_xzibf6.png"
                 alt="Sara Trophies Project"
                 width={800}
                 height={800}
@@ -47,7 +47,7 @@ export default function ProjectsSection() {
           >
             <div className="aspect-[1/1] overflow-hidden">
               <Image
-                src="/images/design-mode/project-paints-project-main-image_jpqpqm(1).png"
+                src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/project-paints-project-main-image_jpqpqm.png"
                 alt="Project Paints Project"
                 width={800}
                 height={800}

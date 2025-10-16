@@ -14,7 +14,7 @@ export default function AboutSection() {
         {/* Centered image */}
         <div className="mt-8 flex justify-center">
           <img
-            src="/images/design-mode/unsplash_hGV2TfOh0ns_dqx4ss(1).png"
+            src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610153/unsplash_hGV2TfOh0ns_dqx4ss.png"
             alt="Workspace desk with laptop and monitor"
             className="w-[520px] max-w-full h-auto rounded-md md:rounded-lg object-cover"
           />

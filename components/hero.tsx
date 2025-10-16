@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="order-1 md:order-2 md:col-span-4 ">
             <div className="w-full flex justify-start md:justify-end">
               <img
-                src="/images/design-mode/Haider-profile_s1hnsh(1).jpg"
+                src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610295/Haider-profile_s1hnsh.jpg"
                 alt="Portrait photograph"
                 className="h-40 w-40 md:h-60 md:w-60 object-cover rounded-2xl shadow-[0_0_0_0_rgba(0,0,0,0)]"
               />

@@ -30,7 +30,7 @@ export default function ProjectsPage() {
             >
               <div className="aspect-[1/1] overflow-hidden relative">
                 <Image
-                  src="/images/design-mode/sara-trophies-project-main-image_xzibf6(1).png"
+                  src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/sara-trophies-project-main-image_xzibf6.png"
                   alt="Sara Trophies website showcase on laptop screen"
                   fill
                   className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
@@ -48,7 +48,7 @@ export default function ProjectsPage() {
             >
               <div className="aspect-[1/1] overflow-hidden relative">
                 <Image
-                  src="/images/design-mode/project-paints-project-main-image_jpqpqm(1).png"
+                  src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/project-paints-project-main-image_jpqpqm.png"
                   alt="Project Paints showcase on laptop screen"
                   fill
                   className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
