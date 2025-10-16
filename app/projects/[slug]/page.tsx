@@ -6,13 +6,13 @@ import SiteHeader from "@/components/site-header"
 import FooterCta from "@/components/footer-cta"
 
 interface ProjectPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const { slug } = params;
+export default async  function ProjectPage({ params }: ProjectPageProps) {
+  const { slug } = await params;
   const project = projectsData.find((p) => p.slug === slug);
 
   if (!project) return notFound();
