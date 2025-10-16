@@ -1,59 +1,61 @@
 "use client"
+
 import SiteHeader from "@/components/site-header"
 import FooterCta from "@/components/footer-cta"
+import Link from "next/link"
+import Image from "next/image"
 
 export default function ProjectsPage() {
   return (
     <main className="w-full">
-    <SiteHeader />
+      <SiteHeader />
       <section id="projects" className="mx-auto px-6 py-10 md:py-14 lg:py-16">
-        <div className="rounded-3xl  p-6 md:p-8 lg:p-10">
+        <div className="rounded-3xl p-6 md:p-8 lg:p-10">
           <header className="mb-8 md:mb-10">
-           <p id="projects-heading" className="eyebrow text-foreground">
-            PROJECTS
-          </p>
-          <p className="mt-2 text-foreground text-base md:text-lg lg:text-xl">
-            Explore my portfolio of creative solutions
-          </p>
+            <p id="projects-heading" className="eyebrow text-foreground">
+              PROJECTS
+            </p>
+            <p className="mt-2 text-foreground text-base md:text-lg lg:text-xl">
+              Explore my portfolio of creative solutions
+            </p>
           </header>
 
           {/* Project grid */}
           <div className="grid gap-6 md:gap-8 md:grid-cols-2">
             {/* Project 1 */}
-            <a
+            <Link
               href="/projects/sara-trophies"
-              
-              rel="noopener noreferrer"
               aria-label="Sara Trophies Project"
               className="group block overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="aspect-[1/1] overflow-hidden">
-                <img
+              <div className="aspect-[1/1] overflow-hidden relative">
+                <Image
                   src="/images/design-mode/sara-trophies-project-main-image_xzibf6(1).png"
                   alt="Sara Trophies website showcase on laptop screen"
-                  className="h-full w-full object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
+                  fill
+                  className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
                 />
               </div>
-              
-            </a>
+            </Link>
 
             {/* Project 2 */}
-            <a
+            <Link
               href="/projects/project-paints"
-              
-              rel="noopener noreferrer"
               aria-label="Project Paints Website"
               className="group block overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="aspect-[1/1] overflow-hidden">
-                <img
+              <div className="aspect-[1/1] overflow-hidden relative">
+                <Image
                   src="/images/design-mode/project-paints-project-main-image_jpqpqm(1).png"
                   alt="Project Paints showcase on laptop screen"
-                  className="h-full w-full object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
+                  fill
+                  className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
-              
-            </a>
+            </Link>
           </div>
         </div>
       </section>
