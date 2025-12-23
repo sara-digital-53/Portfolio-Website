@@ -34,7 +34,7 @@ export default function SiteHeader() {
       <div className="mx-auto py-6 px-4 sm:px-10 flex items-center justify-between">
         {/* Logo / Home */}
         <Link href="/" className="text-foreground font-semibold tracking-tight text-lg" aria-label="Home">
-          HAIDER
+          NAME
         </Link>
 
         {/* Desktop Nav */}
@@ -49,7 +49,7 @@ export default function SiteHeader() {
             Skills
           </Link>
           <Link
-            href="mailto:haidersoni47@gmail.com"
+            href="mailto:your-email-id"
             className="rounded-full bg-foreground text-background px-5 py-2 font-medium hover:opacity-90 transition-opacity"
           >
             Contact

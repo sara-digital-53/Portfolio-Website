@@ -23,14 +23,14 @@ export default function ProjectsSection() {
         <div className="mt-8 md:mt-10 grid gap-6 md:gap-8 md:grid-cols-2">
           {/* Project 1 */}
           <Link
-            href="/projects/sara-trophies"
+            href="/projects/dashboard-website-template"
             aria-label="Project 1"
             className="group block overflow-hidden bg-white shadow-sm"
           >
             <div className="aspect-[1/1] overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/sara-trophies-project-main-image_xzibf6.png"
-                alt="Sara Trophies Project"
+                src="/dashboard-website-template.jpg"
+                alt="Dashboard Website Template Project"
                 width={800}
                 height={800}
                 className="h-full w-full object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
@@ -41,14 +41,14 @@ export default function ProjectsSection() {
 
           {/* Project 2 */}
           <Link
-            href="/projects/project-paints"
+            href="/projects/ecommerce-website-template"
             aria-label="Project 2"
             className="group block overflow-hidden bg-white shadow-sm"
           >
             <div className="aspect-[1/1] overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/project-paints-project-main-image_jpqpqm.png"
-                alt="Project Paints Project"
+                src="/Ecomm-Website-Template.jpg"
+                alt="Ecommerce Website Template Project"
                 width={800}
                 height={800}
                 className="h-full w-full object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"

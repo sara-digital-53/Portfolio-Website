@@ -14,9 +14,9 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Haider's Portfolio",
-  description: "I am a UI/UX Designer, Full Stack Developer and Product Designer",
-  generator: "Haider Soni",
+  title: "Portfolio Website",
+  description: "Grab this template to create your own portfolio website.",
+  generator: "Sara Digital",
 }
 
 export default function RootLayout({

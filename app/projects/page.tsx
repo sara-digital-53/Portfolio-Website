@@ -24,14 +24,14 @@ export default function ProjectsPage() {
           <div className="grid gap-6 md:gap-8 md:grid-cols-2">
             {/* Project 1 */}
             <Link
-              href="/projects/sara-trophies"
-              aria-label="Sara Trophies Project"
+              href="/projects/dashboard-website-template"
+              aria-label="Dashboard Website Template Project"
               className="group block overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="aspect-[1/1] overflow-hidden relative">
                 <Image
-                  src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/sara-trophies-project-main-image_xzibf6.png"
-                  alt="Sara Trophies website showcase on laptop screen"
+                  src="/dashboard-website-template.jpg"
+                  alt="Dashboard Website Template Project"
                   fill
                   className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -42,14 +42,14 @@ export default function ProjectsPage() {
 
             {/* Project 2 */}
             <Link
-              href="/projects/project-paints"
-              aria-label="Project Paints Website"
+              href="/projects/ecommerce-website-template"
+              aria-label="Ecommerce Website Template Project"
               className="group block overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="aspect-[1/1] overflow-hidden relative">
                 <Image
-                  src="https://res.cloudinary.com/dcwniwn2m/image/upload/v1760610781/project-paints-project-main-image_jpqpqm.png"
-                  alt="Project Paints showcase on laptop screen"
+                  src="/Ecomm-Website-Template.jpg"
+                  alt="Ecommerce Website Template Project"
                   fill
                   className="object-cover transform-gpu transition-transform duration-500 ease-out group-hover:scale-105 will-change-transform"
                   sizes="(max-width: 768px) 100vw, 50vw"

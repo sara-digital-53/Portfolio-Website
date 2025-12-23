@@ -23,7 +23,7 @@ export default function FooterCTA() {
             <div className="mt-6 flex items-center gap-4">
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com/in/haider-soni-03018026a/"
+                href="https://linkedin.com/in/your-linkedin-url/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -37,7 +37,7 @@ export default function FooterCTA() {
 
               {/* Dribbble */}
               <a
-                href="https://dribbble.com/HYBS786"
+                href="https://dribbble.com/your-dribbble-username/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Dribbble"
@@ -63,7 +63,7 @@ export default function FooterCTA() {
           {/* CTA button */}
           <div className="lg:col-span-5 flex lg:justify-end">
             <a
-              href="mailto:haidersoni47@gmail.com"
+              href="mailto:your-email-id"
               className="group inline-flex items-center gap-3 rounded-full bg-foreground text-background pl-2 pr-5 py-2.5 md:pl-3 md:pr-6 md:py-3 shadow-[0_6px_30px_-10px_rgba(0,0,0,0.4)] transition-transform duration-200 hover:translate-x-[2px]"
               aria-label="Get in touch"
             >
@@ -89,18 +89,18 @@ export default function FooterCTA() {
         <div className="mt-14 flex flex-col items-center md:items-start justify-between gap-6 text-sm text-foreground/80 md:flex-row md:items-center">
           {/* Contact links with subtle underline animation (like nav) */}
           <div className="flex flex-wrap items-center justify-center gap-8">
-            <a href="mailto:haidersoni47@gmail.com" className="group relative inline-block">
-              <span className="relative z-10">haidersoni47@gmail.com</span>
+            <a href="mailto:your-email-id" className="group relative inline-block">
+              <span className="relative z-10">your-email-id</span>
               <span className="absolute left-0 -bottom-0.5 h-[2px] w-0 bg-foreground transition-all duration-300 group-hover:w-full" />
             </a>
 
-            <a href="tel:+919131103353" className="group relative inline-block">
-              <span className="relative z-10">+91-9131103353</span>
+            <a href="tel:your-contact-no" className="group relative inline-block">
+              <span className="relative z-10">your-contact-no</span>
               <span className="absolute left-0 -bottom-0.5 h-[2px] w-0 bg-foreground transition-all duration-300 group-hover:w-full" />
             </a>
           </div>
 
-          <p className="text-center text-muted-foreground">All rights reserved, Haider ©2025</p>
+          <p className="text-center text-muted-foreground">All rights reserved, ©2025</p>
         </div>
       </div>
     </footer>
